@@ -6,6 +6,6 @@ class Cat
     @mood = mood
     @name = name
     @owner=owner
-    @@all << self
+    @all << self
   end
 end
