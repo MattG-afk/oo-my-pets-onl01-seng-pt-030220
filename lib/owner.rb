@@ -60,8 +60,7 @@ class Owner
   end
   
   def pets
-    @cats
-    @dogs
+    cats + dogs
   end
   
    def sell_pets
