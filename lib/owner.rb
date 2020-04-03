@@ -34,8 +34,8 @@ class Owner
     end
   end
   
-  def dogs 
-    @dogs
+  def dogs
+    
   end 
   
   def buy_cat(name)
