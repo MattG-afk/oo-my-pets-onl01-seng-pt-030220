@@ -30,7 +30,7 @@ class Owner
    "I am a #{self.species}."
   end
   
-  def cats.owner.name
+  def cats.owner
     @@all << self
   end
   
