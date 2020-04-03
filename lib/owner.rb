@@ -1,5 +1,4 @@
 class Owner
-  attr_accessor :pets
   attr_reader :name, :species
   
   @@all = []
@@ -58,6 +57,11 @@ class Owner
     cats.each do |cat|
       cat.mood = 'happy'
     end
+  end
+  
+  def pets
+    @cats
+    @dogs
   end
   
    def sell_pets
