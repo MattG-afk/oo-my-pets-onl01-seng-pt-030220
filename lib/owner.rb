@@ -32,7 +32,7 @@ class Owner
   
   def cats 
     Cat.all.detect do |cat| 
-       cat == self
+       cat.owner == self
     end
   end
   
