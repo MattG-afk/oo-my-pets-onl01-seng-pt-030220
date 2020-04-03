@@ -31,8 +31,10 @@ class Owner
   end
   
   def cats 
-    Cat
-  end 
+    Cat.all.detect do |cat| 
+       cat == self
+    end
+  end
   
   def dogs 
     @dogs
